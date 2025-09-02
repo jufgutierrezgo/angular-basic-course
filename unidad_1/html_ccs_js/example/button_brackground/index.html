@@ -1,0 +1,33 @@
+<!--
+Archivo: index.html
+Este archivo define la estructura de la página.
+Aquí incluimos un título, un párrafo explicativo y un botón
+que cambiará el color de fondo al hacer clic.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiador de Color</title>
+
+    <!-- Conectamos el archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <h1>🎨 Cambiador de Color de Fondo</h1>
+
+    <!-- Párrafo explicativo -->
+    <p>Haz clic en el botón para cambiar el color de fondo de esta página.</p>
+
+    <!-- Botón con id para poder usarlo en JavaScript -->
+    <button id="btnColor">Cambiar color</button>
+
+    <!-- Un texto dinámico donde mostraremos el color actual -->
+    <p id="colorActual">Color actual: blanco</p>
+
+    <!-- Archivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>

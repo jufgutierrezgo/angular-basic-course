@@ -1,0 +1,43 @@
+/*
+Archivo: styles.css
+Este archivo define el "aspecto visual" de la página web.
+Mientras que HTML define la estructura, CSS define cómo se ve cada elemento: colores, tamaños, posiciones, etc.
+*/
+
+/* 
+El selector "body" aplica estilos a todo el contenido de la página.
+*/
+body {
+    font-family: Arial, sans-serif; /* Define la fuente del texto. Si no existe Arial, usa cualquier fuente "sans-serif" */
+    background-color: #f0f8ff;      /* Color de fondo de la página (AliceBlue) */
+    text-align: center;             /* Centra todo el texto horizontalmente */
+    padding: 50px;                  /* Agrega espacio interno alrededor del contenido */
+}
+
+/*
+Estilo para el título principal (etiqueta <h1>)
+*/
+h1 {
+    color: #333366;                 /* Define el color del texto (un azul oscuro) */
+}
+
+/*
+Estilo para el botón <button>
+*/
+button {
+    background-color: #4CAF50;      /* Color de fondo verde */
+    color: white;                   /* Color del texto en blanco */
+    padding: 10px 20px;             /* Espaciado interno: 10px arriba/abajo y 20px a los lados */
+    border: none;                   /* Elimina el borde por defecto */
+    border-radius: 5px;             /* Bordes redondeados (5px de radio) */
+    cursor: pointer;                /* Al pasar el ratón, cambia el cursor a una mano */
+    font-size: 16px;                /* Aumenta un poco el tamaño de la letra del botón */
+}
+
+/*
+Efecto cuando el usuario pasa el ratón sobre el botón.
+Esto se llama "pseudoclase :hover".
+*/
+button:hover {
+    background-color: #45a049;      /* Cambia el color del fondo a un verde más oscuro */
+}

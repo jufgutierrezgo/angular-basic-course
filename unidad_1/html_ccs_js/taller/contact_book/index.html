@@ -1,0 +1,74 @@
+<!--
+Archivo: index.html
+Pequeña libreta de contactos sin backend. Los datos viven en memoria (y opcionalmente, TODO: localStorage).
+Incluye varios TODOs en JS para que el estudiante los implemente.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Libreta de contactos (HTML + CSS + JS)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Libreta de contactos</h1>
+
+    <!-- Formulario: añadir contacto -->
+    <section class="card">
+      <h2>Añadir contacto</h2>
+      <form id="contactForm" novalidate>
+        <div class="grid">
+          <label>
+            Nombre
+            <input type="text" id="name" name="name" placeholder="Ej: Ana Pérez" required />
+          </label>
+          <label>
+            Email
+            <input type="email" id="email" name="email" placeholder="ana@example.com" required />
+          </label>
+          <label>
+            Teléfono
+            <input type="tel" id="phone" name="phone" placeholder="+49 123 456 789" required />
+          </label>
+        </div>
+
+        <div class="actions">
+          <button type="submit" id="btnAdd">Añadir</button>
+          <button type="reset" id="btnClear">Limpiar</button>
+        </div>
+
+        <p id="formMsg" class="msg" aria-live="polite"></p>
+      </form>
+
+      <!-- TODO-VALIDACION: reforzar validaciones (longitud, formato de teléfono, duplicados, etc.) -->
+    </section>
+
+    <!-- Barra de herramientas: búsqueda / ordenamiento -->
+    <section class="toolbar">
+      <input type="search" id="search" placeholder="Buscar por nombre, email o teléfono..." aria-label="Buscar contacto" />
+      <select id="sortBy" aria-label="Ordenar por">
+        <option value="createdAt-desc">Recientes primero</option>
+        <option value="createdAt-asc">Antiguos primero</option>
+        <option value="name-asc">Nombre (A→Z)</option>
+        <option value="name-desc">Nombre (Z→A)</option>
+      </select>
+    </section>
+
+    <!-- Lista de contactos -->
+    <section class="card">
+      <h2>Contactos</h2>
+      <ul id="contactList" class="list" aria-live="polite"></ul>
+
+      <!-- Estado vacío -->
+      <p id="emptyState" class="muted">Aún no hay contactos. ¡Añade el primero! 🎯</p>
+
+      <!-- TODO-BUSQUEDA: implementar filtrado por el campo #search -->
+      <!-- TODO-ORDEN: implementar ordenamiento por #sortBy -->
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

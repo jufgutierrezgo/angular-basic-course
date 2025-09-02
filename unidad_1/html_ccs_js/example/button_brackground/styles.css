@@ -1,0 +1,38 @@
+/*
+Archivo: styles.css
+Define el aspecto visual de la página.
+*/
+body {
+    font-family: Arial, sans-serif;  /* Fuente */
+    text-align: center;              /* Centra todo el texto */
+    background-color: white;         /* Color inicial del fondo */
+    transition: background-color 0.5s ease; /* Suaviza el cambio de color */
+    padding: 50px;
+}
+
+/* Estilo para el título */
+h1 {
+    color: #333;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #007BFF;  /* Azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efecto hover: cambia de azul a más oscuro */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Texto que muestra el color actual */
+#colorActual {
+    margin-top: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+<!--
+Archivo: index.html
+Este archivo contiene el "esqueleto" o la estructura principal de nuestra página web.
+En HTML se definen los elementos que se verán en la pantalla: textos, botones, imágenes, enlaces, etc.
+HTML no define estilos ni comportamientos, solo la estructura y el contenido.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- La etiqueta <meta charset="UTF-8"> asegura que los caracteres especiales como ñ, tildes y emojis se muestren correctamente -->
+    <meta charset="UTF-8">
+    
+    <!-- La etiqueta viewport ayuda a que la página se vea bien en dispositivos móviles (pantallas pequeñas) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- El texto dentro de <title> se muestra en la pestaña del navegador -->
+    <title>Ejemplo HTML + CSS + JS</title>
+    
+    <!-- Aquí enlazamos el archivo externo de CSS que se encargará de los estilos visuales -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado principal de la página (título más importante, de nivel 1) -->
+    <h1>¡Hola, mundo con HTML, CSS y JS!</h1>
+    
+    <!-- Un párrafo simple para explicar de qué trata la página -->
+    <p>Este es un ejemplo básico para aprender cómo se usan HTML, CSS y JavaScript juntos.</p>
+    
+    <!-- Botón que usaremos para probar la interacción con JavaScript.
+         El atributo "id" nos permitirá seleccionarlo desde el archivo JS -->
+    <button id="btnSaludo">Haz clic aquí</button>
+
+    <!-- Al final del body cargamos el archivo script.js.
+         Esto asegura que el contenido HTML ya esté listo antes de que JS lo intente usar. -->
+    <script src="script.js"></script>
+</body>
+</html>
