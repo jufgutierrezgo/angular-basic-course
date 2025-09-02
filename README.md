@@ -2,9 +2,8 @@
 
 # Angular Basic Course
 
-Este repositorio contiene el material del curso **Angular Basic Course**, diseñado para estudiantes y desarrolladores que desean aprender los fundamentos esenciales de Angular desde cero.  
-El curso está estructurado en unidades y lecciones que abarcan desde la configuración inicial del entorno hasta la optimización y despliegue de aplicaciones Angular.  
-Cada unidad combina teoría y práctica con ejemplos para facilitar el aprendizaje paso a paso.
+Este repositorio contiene el material del curso **Angular Basic Course**, diseñado para estudiantes y desarrolladores que desean aprender los fundamentos esenciales de Angular desde cero. 
+El curso está estructurado en unidades y lecciones que abarcan desde la configuración inicial del entorno hasta la optimización y despliegue de aplicaciones Angular. Cada unidad combina teoría y práctica con ejemplos para facilitar el aprendizaje paso a paso.
 
 ---
 
