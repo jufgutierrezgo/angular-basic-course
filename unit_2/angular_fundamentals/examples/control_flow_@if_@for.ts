@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
+  // standalone: true,
   template: `
     <h2>Fruit List</h2>
 
