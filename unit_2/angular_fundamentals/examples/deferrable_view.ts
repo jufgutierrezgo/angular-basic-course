@@ -3,7 +3,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
+  // standalone: true,
   template: `
     <h1>Ejemplo simple de Deferrable Views</h1>
 
