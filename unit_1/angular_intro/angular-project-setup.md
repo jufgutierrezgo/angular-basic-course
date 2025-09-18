@@ -53,6 +53,12 @@ ng version
    - **Add Angular routing?** → `Yes` (recommended for most apps).
    - **Which stylesheet format?** → choose `CSS` (or `SCSS`, `SASS`, `LESS`).
 
+Note: Use ng new with minimal options. You can generate an empty project (no routing, no extra styles, no tests):
+
+  ```bash
+  ng new mi-proyecto --standalone --skip-tests --skip-git --minimal
+
+  ```
 ---
 
 ## 3. Open the Project
