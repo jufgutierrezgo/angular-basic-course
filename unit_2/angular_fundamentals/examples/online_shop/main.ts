@@ -1,3 +1,9 @@
+// ------------------------------------------------
+// This was created by:
+// Juan Felipe Maldonado Pedraza
+// email: jfmaldonado77v@gmail.com
+// ------------------------------------------------
+
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { bootstrapApplication } from '@angular/platform-browser';
