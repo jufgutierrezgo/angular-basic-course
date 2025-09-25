@@ -1,7 +1,3 @@
-# Quiz sobre Angular — 15 preguntas de opción múltiple
-
-Este cuestionario cubre conceptos básicos e intermedios de Angular, TypeScript y el ecosistema de desarrollo en VS Code.  
-Selecciona la opción correcta en cada pregunta.
 
 
 ---
