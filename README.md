@@ -77,3 +77,7 @@ El curso está estructurado en unidades y lecciones que abarcan desde la configu
 - Preparación para producción  
 - Despliegue en servicios de hosting  
 
+
+## Licencia
+Este repositorio está bajo la licencia [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
+Eres libre de usar, compartir y modificar el material, siempre dando la atribución correspondiente.
